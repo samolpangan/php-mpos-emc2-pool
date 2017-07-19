@@ -22,7 +22,7 @@
                   </li>
                 </ul>
                 {else}
-                <a class="navbar-brand" href="{$smarty.server.SCRIPT_NAME}">{$GLOBAL.website.name}</a>
+                <a class="navbar-brand navbar-brand-custom" href="{$smarty.server.SCRIPT_NAME}"><img src="{$GLOBALASSETS}/images/emc2_logo.png"/></a>
                 {/if}
             </div>
 
