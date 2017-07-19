@@ -659,9 +659,14 @@ div.fade {
     padding: 0px;
 }
 
-.push-notifications-params,
-.push-notifications-disabled .push-notifications {
-	display : none;
-}
-
 /* END EDIT */
+
+/* Edit header logo */
+.navbar-brand-custom {
+	padding: 5px;
+}
+.navbar-brand-custom > img{
+	width: 304px;
+	height: 40px;
+}
+/* END Edit header logo  */
