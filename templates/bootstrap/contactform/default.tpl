@@ -29,7 +29,7 @@
             </div>
             <div class="col-lg-6">
               <div class="form-group">
-                <label for="message">Your Message</label>
+                <label for="message">Your Message (please include port and hardware)</label>
                 <textarea type="text" class="form-control" name="senderMessage" cols="80" rows="20" maxlength="10000" required>{$smarty.request.senderMessage|escape|default:""}</textarea>
               </div>
             </div>
